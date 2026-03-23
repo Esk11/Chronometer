@@ -432,12 +432,20 @@ function Chronometer:OnInitialize()
 	self.gratuity = AceLibrary("Gratuity-2.0")
 
 	paint:RegisterColor("gray", 0.5,0.5,0.5)
-	paint:RegisterColor("forest", 0.0,0.5,0.0)
-	paint:RegisterColor("maroon", 0.5,0.0,0.0)
-	paint:RegisterColor("navy", 0.0,0.0,0.5)
-	paint:RegisterColor("olive", 0.5,0.5,0.0)
-	paint:RegisterColor("purple", 0.5,0.0,0.5)
-	paint:RegisterColor("teal", 0.0,0.5,0.5)
+	--paint:RegisterColor("forest", 0.0,0.5,0.0)
+	--paint:RegisterColor("maroon", 0.5,0.0,0.0)
+	--paint:RegisterColor("navy", 0.0,0.0,0.5)
+	--paint:RegisterColor("olive", 0.5,0.5,0.0)
+	--paint:RegisterColor("purple", 0.5,0.0,0.5)
+	--paint:RegisterColor("teal", 0.0,0.5,0.5)
+	
+	-- New Colors --
+	paint:RegisterColor("forest", 0.412, 0.702, 0.412)
+	paint:RegisterColor("purple", 0.592, 0.325, 0.78)
+	paint:RegisterColor("maroon", 0.769, 0.325, 0.384)
+	paint:RegisterColor("navy", 0.318, 0.447, 0.871)
+	paint:RegisterColor("olive", 0.588, 0.588, 0.2)
+	paint:RegisterColor("teal", 0.424, 0.839, 0.631)
 
 	local colors = {"white", "black", "blue", "magenta", "cyan", "green", "yellow", "orange", "red", "gray", "forest", "maroon", "navy", "olive", "purple", "teal"}
 
